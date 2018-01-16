@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Wallet Manager</string>
+    <string name="enter_outcome_amount">Outcome Entry</string>
+    <string name="outcome_place">Place</string>
+    <string name="outcome_price">Price</string>
+    <string name="add">Add</string>
+    <string name="is_bank_transaction">Bank Transaction</string>
+    <string name="lastest_entries">Lastest Entries</string>
+    <string name="enter_income_amount">Income Entry</string>
+    <string name="total_income">Total Income</string>
+    <string name="total_outcome">Total Outcome</string>
+</resources>

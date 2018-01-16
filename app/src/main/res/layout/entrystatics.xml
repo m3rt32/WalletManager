@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="171dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/total_outcome"
+            android:textAlignment="center"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:id="@+id/statics_outcome"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="45dp"
+            android:autoSizeTextType="uniform"
+            android:text="100 TL"
+            android:textAlignment="center"
+            android:textAppearance="@android:style/TextAppearance.Material.Large"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="164dp"
+        android:layout_height="114dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/total_income"
+            android:textAlignment="center"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:id="@+id/statics_income"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="45dp"
+            android:autoSizeTextType="uniform"
+            android:text="100 TL"
+            android:textAlignment="center"
+            android:textAppearance="@android:style/TextAppearance.Material.Large"
+            android:textColor="@android:color/holo_green_light"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="0dp" />
+    </android.support.v7.widget.CardView>
+
+    <ListView
+        android:id="@+id/totalList"
+        android:layout_width="368dp"
+        android:layout_height="400dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView3" />
+
+</android.support.constraint.ConstraintLayout>
